@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: YOUR_DOCKERHUB_USERNAME/order-service:1.0
+          image: ntezimanagad/order-service:1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
